@@ -48,15 +48,15 @@ This project aims to build a machine learning model for classifying emails as sp
 - The dataset used for this project can be found at Dataset Source.
 
 ## Model Training
-- To train the SVM model on your data, use the train_model.py script. Ensure your data is properly formatted and split into training and testing sets.
+- To train the SVM model on your data, use the train data. Ensure your data is properly formatted and split into training and testing sets.
 
 ## Evaluation
-- Evaluate the model's performance using the evaluate_model.py script. This will provide insights into accuracy and other relevant metrics.
+- Evaluate the model's performance using the evaluation metric. This will provide insights into accuracy and other relevant metrics.
 
 ## Tuning
 - Experiment with hyperparameter tuning to improve model performance. Adjust parameters in the tuned_param dictionary within the train_model.py script.
 
-tuned_param = {'kernel': ['linear', 'rbf'], 'gamma': [1e-3, 1e-4], 'C': [1, 10, 100, 1000, 10000]}
+  tuned_param = {'kernel': ['linear', 'rbf'], 'gamma': [1e-3, 1e-4], 'C': [1, 10, 100, 1000, 10000]}
 
 ## Results
-- Share the results of your model, including accuracy, precision, recall, and F1 score. Discuss any interesting observations or challenges encountered during the project.
+- The accuracy is 86%. We couldn't achieve higher accuracy because the dataset is little
